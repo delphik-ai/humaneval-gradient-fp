@@ -81,3 +81,13 @@ loose_rank={p:k+1 for k,p in enumerate(order)}
 print("\ncohesion of the 5 genuine-majority problems (loosest-rank of",len(coh),"problems):")
 for p,name in [(48,'is_palindrome'),(8,'sum_product'),(55,'fib'),(158,'find_max'),(89,'encrypt')]:
     print(f"  {name:<15} cohesion={coh[p]:.3f}  loosest-rank {loose_rank[p]}")
+
+# --- effect size d per FP: (mean genuine sim - FP sim) / std of genuine sims ---
+print("\neffect size d per FP (genuine-referenced; post-hoc, needs labels):")
+for pid,rs in sorted(byp.items()):
+    g=[sims[r['i']]['sim_within'] for r in rs if r['label']=='genuine']
+    f=[sims[r['i']]['sim_within'] for r in rs if r['label']=='FP']
+    if not f: continue
+    mu,sd=np.mean(g),(np.std(g) if len(g)>1 else float('nan'))
+    ds=", ".join(f"{(mu-x)/sd:+.2f}" if sd==sd and sd>1e-9 else "n/a" for x in f)
+    print(f"  {rs[0]['entry']:<17} genuine {mu:.3f}±{(sd if sd==sd else 0):.3f}  d = {ds}")
