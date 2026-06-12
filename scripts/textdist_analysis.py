@@ -71,3 +71,13 @@ for name,pids in [("genuine-majority",minority),("FP-majority",majority),("poole
     y=np.array([1 if r['label']=='FP' else 0 for r in rs])
     Zm=np.array([r['z_within'] for r in rs]); Tm=np.array([r['z_text'] for r in rs])
     print(f"{name:>17}: n={len(rs):>3} FP={y.sum():>2}  gradient AUC={auc(-Zm,y):.3f}  text-dist AUC={auc(Tm,y):.3f}")
+
+# --- cohesion: a problem's mean pairwise gradient similarity (no labels needed) ---
+coh={}
+for pid,rs in byp.items():
+    coh[pid]=float(np.mean([sims[r['i']]['sim_within'] for r in rs]))
+order=sorted(coh,key=lambda p:coh[p])
+loose_rank={p:k+1 for k,p in enumerate(order)}
+print("\ncohesion of the 5 genuine-majority problems (loosest-rank of",len(coh),"problems):")
+for p,name in [(48,'is_palindrome'),(8,'sum_product'),(55,'fib'),(158,'find_max'),(89,'encrypt')]:
+    print(f"  {name:<15} cohesion={coh[p]:.3f}  loosest-rank {loose_rank[p]}")
