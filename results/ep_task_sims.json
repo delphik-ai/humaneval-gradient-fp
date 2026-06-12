@@ -1,0 +1,1388 @@
+[
+ {
+  "pid": 0,
+  "entry": "has_close_elements",
+  "n": 10,
+  "task_sim_to_rest": 0.2159329652786255,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 1,
+  "entry": "separate_paren_groups",
+  "n": 9,
+  "task_sim_to_rest": 0.23148800432682037,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 2,
+  "entry": "truncate_number",
+  "n": 10,
+  "task_sim_to_rest": 0.2821859121322632,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 3,
+  "entry": "below_zero",
+  "n": 10,
+  "task_sim_to_rest": 0.20624172687530518,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 4,
+  "entry": "mean_absolute_deviation",
+  "n": 10,
+  "task_sim_to_rest": 0.21391510963439941,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 5,
+  "entry": "intersperse",
+  "n": 9,
+  "task_sim_to_rest": 0.24508826434612274,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 6,
+  "entry": "parse_nested_parens",
+  "n": 10,
+  "task_sim_to_rest": 0.23476646840572357,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 7,
+  "entry": "filter_by_substring",
+  "n": 10,
+  "task_sim_to_rest": 0.23007042706012726,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 8,
+  "entry": "sum_product",
+  "n": 9,
+  "task_sim_to_rest": 0.2659915089607239,
+  "fp": 1,
+  "tot": 9,
+  "fprate": 0.1111111111111111
+ },
+ {
+  "pid": 9,
+  "entry": "rolling_max",
+  "n": 10,
+  "task_sim_to_rest": 0.25828996300697327,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 10,
+  "entry": "make_palindrome",
+  "n": 6,
+  "task_sim_to_rest": 0.1804904043674469,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 11,
+  "entry": "string_xor",
+  "n": 9,
+  "task_sim_to_rest": 0.20160342752933502,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 12,
+  "entry": "longest",
+  "n": 10,
+  "task_sim_to_rest": 0.23688815534114838,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 13,
+  "entry": "greatest_common_divisor",
+  "n": 10,
+  "task_sim_to_rest": 0.3021105229854584,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 14,
+  "entry": "all_prefixes",
+  "n": 10,
+  "task_sim_to_rest": 0.2174510508775711,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 15,
+  "entry": "string_sequence",
+  "n": 10,
+  "task_sim_to_rest": 0.2732255756855011,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 16,
+  "entry": "count_distinct_characters",
+  "n": 10,
+  "task_sim_to_rest": 0.28224122524261475,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 17,
+  "entry": "parse_music",
+  "n": 9,
+  "task_sim_to_rest": 0.23671855032444,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 18,
+  "entry": "how_many_times",
+  "n": 10,
+  "task_sim_to_rest": 0.280872642993927,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 19,
+  "entry": "sort_numbers",
+  "n": 7,
+  "task_sim_to_rest": 0.18602538108825684,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 20,
+  "entry": "find_closest_elements",
+  "n": 10,
+  "task_sim_to_rest": 0.17859050631523132,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 21,
+  "entry": "rescale_to_unit",
+  "n": 10,
+  "task_sim_to_rest": 0.22528328001499176,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 22,
+  "entry": "filter_integers",
+  "n": 10,
+  "task_sim_to_rest": 0.23165775835514069,
+  "fp": 10,
+  "tot": 10,
+  "fprate": 1.0
+ },
+ {
+  "pid": 23,
+  "entry": "strlen",
+  "n": 10,
+  "task_sim_to_rest": 0.2478630244731903,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 24,
+  "entry": "largest_divisor",
+  "n": 10,
+  "task_sim_to_rest": 0.15903586149215698,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 25,
+  "entry": "factorize",
+  "n": 2,
+  "task_sim_to_rest": 0.23124006390571594,
+  "fp": 0,
+  "tot": 2,
+  "fprate": 0.0
+ },
+ {
+  "pid": 26,
+  "entry": "remove_duplicates",
+  "n": 5,
+  "task_sim_to_rest": 0.20307137072086334,
+  "fp": 0,
+  "tot": 5,
+  "fprate": 0.0
+ },
+ {
+  "pid": 27,
+  "entry": "flip_case",
+  "n": 10,
+  "task_sim_to_rest": 0.18111906945705414,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 28,
+  "entry": "concatenate",
+  "n": 10,
+  "task_sim_to_rest": 0.23133772611618042,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 29,
+  "entry": "filter_by_prefix",
+  "n": 10,
+  "task_sim_to_rest": 0.284605473279953,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 30,
+  "entry": "get_positive",
+  "n": 8,
+  "task_sim_to_rest": 0.34597012400627136,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 31,
+  "entry": "is_prime",
+  "n": 10,
+  "task_sim_to_rest": 0.2116519659757614,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 33,
+  "entry": "sort_third",
+  "n": 10,
+  "task_sim_to_rest": 0.22251273691654205,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 34,
+  "entry": "unique",
+  "n": 10,
+  "task_sim_to_rest": 0.2686423063278198,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 35,
+  "entry": "max_element",
+  "n": 10,
+  "task_sim_to_rest": 0.29317158460617065,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 36,
+  "entry": "fizz_buzz",
+  "n": 10,
+  "task_sim_to_rest": 0.19393879175186157,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 37,
+  "entry": "sort_even",
+  "n": 9,
+  "task_sim_to_rest": 0.2662900686264038,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 38,
+  "entry": "decode_cyclic",
+  "n": 9,
+  "task_sim_to_rest": 0.16487570106983185,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 39,
+  "entry": "prime_fib",
+  "n": 6,
+  "task_sim_to_rest": 0.2165016233921051,
+  "fp": 6,
+  "tot": 6,
+  "fprate": 1.0
+ },
+ {
+  "pid": 40,
+  "entry": "triples_sum_to_zero",
+  "n": 10,
+  "task_sim_to_rest": 0.27740752696990967,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 41,
+  "entry": "car_race_collision",
+  "n": 9,
+  "task_sim_to_rest": 0.18544058501720428,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 42,
+  "entry": "incr_list",
+  "n": 10,
+  "task_sim_to_rest": 0.3147660493850708,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 43,
+  "entry": "pairs_sum_to_zero",
+  "n": 10,
+  "task_sim_to_rest": 0.34056639671325684,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 44,
+  "entry": "change_base",
+  "n": 10,
+  "task_sim_to_rest": 0.27074483036994934,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 45,
+  "entry": "triangle_area",
+  "n": 10,
+  "task_sim_to_rest": 0.2806810140609741,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 46,
+  "entry": "fib4",
+  "n": 9,
+  "task_sim_to_rest": 0.2547142803668976,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 47,
+  "entry": "median",
+  "n": 9,
+  "task_sim_to_rest": 0.2970864474773407,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 48,
+  "entry": "is_palindrome",
+  "n": 10,
+  "task_sim_to_rest": 0.3135976791381836,
+  "fp": 1,
+  "tot": 10,
+  "fprate": 0.1
+ },
+ {
+  "pid": 49,
+  "entry": "modp",
+  "n": 10,
+  "task_sim_to_rest": 0.27687329053878784,
+  "fp": 6,
+  "tot": 10,
+  "fprate": 0.6
+ },
+ {
+  "pid": 50,
+  "entry": "decode_shift",
+  "n": 10,
+  "task_sim_to_rest": 0.1908739060163498,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 51,
+  "entry": "remove_vowels",
+  "n": 10,
+  "task_sim_to_rest": 0.2872535288333893,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 52,
+  "entry": "below_threshold",
+  "n": 10,
+  "task_sim_to_rest": 0.29810822010040283,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 53,
+  "entry": "add",
+  "n": 10,
+  "task_sim_to_rest": 0.23924091458320618,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 54,
+  "entry": "same_chars",
+  "n": 6,
+  "task_sim_to_rest": 0.27412739396095276,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 55,
+  "entry": "fib",
+  "n": 9,
+  "task_sim_to_rest": 0.28008949756622314,
+  "fp": 2,
+  "tot": 9,
+  "fprate": 0.2222222222222222
+ },
+ {
+  "pid": 56,
+  "entry": "correct_bracketing",
+  "n": 10,
+  "task_sim_to_rest": 0.22758877277374268,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 57,
+  "entry": "monotonic",
+  "n": 7,
+  "task_sim_to_rest": 0.2980824112892151,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 58,
+  "entry": "common",
+  "n": 10,
+  "task_sim_to_rest": 0.25086724758148193,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 59,
+  "entry": "largest_prime_factor",
+  "n": 8,
+  "task_sim_to_rest": 0.25112468004226685,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 60,
+  "entry": "sum_to_n",
+  "n": 10,
+  "task_sim_to_rest": 0.31830400228500366,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 61,
+  "entry": "correct_bracketing",
+  "n": 10,
+  "task_sim_to_rest": 0.2424282431602478,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 62,
+  "entry": "derivative",
+  "n": 9,
+  "task_sim_to_rest": 0.29382023215293884,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 63,
+  "entry": "fibfib",
+  "n": 10,
+  "task_sim_to_rest": 0.31088629364967346,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 64,
+  "entry": "vowels_count",
+  "n": 1,
+  "task_sim_to_rest": 0.1742769330739975,
+  "fp": 1,
+  "tot": 1,
+  "fprate": 1.0
+ },
+ {
+  "pid": 65,
+  "entry": "circular_shift",
+  "n": 1,
+  "task_sim_to_rest": 0.14335834980010986,
+  "fp": 0,
+  "tot": 1,
+  "fprate": 0.0
+ },
+ {
+  "pid": 66,
+  "entry": "digitSum",
+  "n": 10,
+  "task_sim_to_rest": 0.29986441135406494,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 67,
+  "entry": "fruit_distribution",
+  "n": 6,
+  "task_sim_to_rest": 0.2510904371738434,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 68,
+  "entry": "pluck",
+  "n": 7,
+  "task_sim_to_rest": 0.18386541306972504,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 69,
+  "entry": "search",
+  "n": 10,
+  "task_sim_to_rest": 0.2805265486240387,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 70,
+  "entry": "strange_sort_list",
+  "n": 9,
+  "task_sim_to_rest": 0.2732934057712555,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 71,
+  "entry": "triangle_area",
+  "n": 10,
+  "task_sim_to_rest": 0.29752254486083984,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 72,
+  "entry": "will_it_fly",
+  "n": 9,
+  "task_sim_to_rest": 0.2502208650112152,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 73,
+  "entry": "smallest_change",
+  "n": 8,
+  "task_sim_to_rest": 0.18984508514404297,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 74,
+  "entry": "total_match",
+  "n": 4,
+  "task_sim_to_rest": 0.235837921500206,
+  "fp": 0,
+  "tot": 4,
+  "fprate": 0.0
+ },
+ {
+  "pid": 75,
+  "entry": "is_multiply_prime",
+  "n": 1,
+  "task_sim_to_rest": 0.13884009420871735,
+  "fp": 1,
+  "tot": 1,
+  "fprate": 1.0
+ },
+ {
+  "pid": 76,
+  "entry": "is_simple_power",
+  "n": 2,
+  "task_sim_to_rest": 0.242314413189888,
+  "fp": 2,
+  "tot": 2,
+  "fprate": 1.0
+ },
+ {
+  "pid": 77,
+  "entry": "iscube",
+  "n": 4,
+  "task_sim_to_rest": 0.21516995131969452,
+  "fp": 0,
+  "tot": 4,
+  "fprate": 0.0
+ },
+ {
+  "pid": 78,
+  "entry": "hex_key",
+  "n": 7,
+  "task_sim_to_rest": 0.2801242768764496,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 79,
+  "entry": "decimal_to_binary",
+  "n": 10,
+  "task_sim_to_rest": 0.24495792388916016,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 80,
+  "entry": "is_happy",
+  "n": 10,
+  "task_sim_to_rest": 0.28366607427597046,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 81,
+  "entry": "numerical_letter_grade",
+  "n": 1,
+  "task_sim_to_rest": 0.23149043321609497,
+  "fp": 0,
+  "tot": 1,
+  "fprate": 0.0
+ },
+ {
+  "pid": 82,
+  "entry": "prime_length",
+  "n": 9,
+  "task_sim_to_rest": 0.3041057288646698,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 84,
+  "entry": "solve",
+  "n": 7,
+  "task_sim_to_rest": 0.24381107091903687,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 85,
+  "entry": "add",
+  "n": 9,
+  "task_sim_to_rest": 0.2679816484451294,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 86,
+  "entry": "anti_shuffle",
+  "n": 6,
+  "task_sim_to_rest": 0.29037466645240784,
+  "fp": 5,
+  "tot": 6,
+  "fprate": 0.8333333333333334
+ },
+ {
+  "pid": 87,
+  "entry": "get_row",
+  "n": 8,
+  "task_sim_to_rest": 0.29779309034347534,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 88,
+  "entry": "sort_array",
+  "n": 7,
+  "task_sim_to_rest": 0.29992833733558655,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 89,
+  "entry": "encrypt",
+  "n": 5,
+  "task_sim_to_rest": 0.2699871361255646,
+  "fp": 1,
+  "tot": 5,
+  "fprate": 0.2
+ },
+ {
+  "pid": 90,
+  "entry": "next_smallest",
+  "n": 10,
+  "task_sim_to_rest": 0.3358748257160187,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 91,
+  "entry": "is_bored",
+  "n": 1,
+  "task_sim_to_rest": 0.19444353878498077,
+  "fp": 1,
+  "tot": 1,
+  "fprate": 1.0
+ },
+ {
+  "pid": 92,
+  "entry": "any_int",
+  "n": 9,
+  "task_sim_to_rest": 0.2437586784362793,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 93,
+  "entry": "encode",
+  "n": 1,
+  "task_sim_to_rest": 0.15118035674095154,
+  "fp": 0,
+  "tot": 1,
+  "fprate": 0.0
+ },
+ {
+  "pid": 94,
+  "entry": "skjkasdkd",
+  "n": 4,
+  "task_sim_to_rest": 0.28144049644470215,
+  "fp": 0,
+  "tot": 4,
+  "fprate": 0.0
+ },
+ {
+  "pid": 95,
+  "entry": "check_dict_case",
+  "n": 9,
+  "task_sim_to_rest": 0.25483402609825134,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 96,
+  "entry": "count_up_to",
+  "n": 6,
+  "task_sim_to_rest": 0.24966111779212952,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 97,
+  "entry": "multiply",
+  "n": 8,
+  "task_sim_to_rest": 0.31634223461151123,
+  "fp": 5,
+  "tot": 8,
+  "fprate": 0.625
+ },
+ {
+  "pid": 98,
+  "entry": "count_upper",
+  "n": 9,
+  "task_sim_to_rest": 0.2625247836112976,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 99,
+  "entry": "closest_integer",
+  "n": 3,
+  "task_sim_to_rest": 0.24937602877616882,
+  "fp": 0,
+  "tot": 3,
+  "fprate": 0.0
+ },
+ {
+  "pid": 100,
+  "entry": "make_a_pile",
+  "n": 9,
+  "task_sim_to_rest": 0.254594087600708,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 101,
+  "entry": "words_string",
+  "n": 6,
+  "task_sim_to_rest": 0.31970298290252686,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 102,
+  "entry": "choose_num",
+  "n": 3,
+  "task_sim_to_rest": 0.28863006830215454,
+  "fp": 0,
+  "tot": 3,
+  "fprate": 0.0
+ },
+ {
+  "pid": 103,
+  "entry": "rounded_avg",
+  "n": 7,
+  "task_sim_to_rest": 0.26858481764793396,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 104,
+  "entry": "unique_digits",
+  "n": 10,
+  "task_sim_to_rest": 0.2791897654533386,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 105,
+  "entry": "by_length",
+  "n": 5,
+  "task_sim_to_rest": 0.20924922823905945,
+  "fp": 0,
+  "tot": 5,
+  "fprate": 0.0
+ },
+ {
+  "pid": 106,
+  "entry": "f",
+  "n": 7,
+  "task_sim_to_rest": 0.3095545768737793,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 107,
+  "entry": "even_odd_palindrome",
+  "n": 10,
+  "task_sim_to_rest": 0.18839670717716217,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 108,
+  "entry": "count_nums",
+  "n": 4,
+  "task_sim_to_rest": 0.25441816449165344,
+  "fp": 0,
+  "tot": 4,
+  "fprate": 0.0
+ },
+ {
+  "pid": 109,
+  "entry": "move_one_ball",
+  "n": 5,
+  "task_sim_to_rest": 0.3027360439300537,
+  "fp": 0,
+  "tot": 5,
+  "fprate": 0.0
+ },
+ {
+  "pid": 110,
+  "entry": "exchange",
+  "n": 7,
+  "task_sim_to_rest": 0.2775801718235016,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 111,
+  "entry": "histogram",
+  "n": 9,
+  "task_sim_to_rest": 0.1945127695798874,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 112,
+  "entry": "reverse_delete",
+  "n": 8,
+  "task_sim_to_rest": 0.24627752602100372,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 113,
+  "entry": "odd_count",
+  "n": 8,
+  "task_sim_to_rest": 0.22360004484653473,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 114,
+  "entry": "minSubArraySum",
+  "n": 10,
+  "task_sim_to_rest": 0.2525671720504761,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 116,
+  "entry": "sort_array",
+  "n": 9,
+  "task_sim_to_rest": 0.32812705636024475,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 117,
+  "entry": "select_words",
+  "n": 8,
+  "task_sim_to_rest": 0.29060429334640503,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 118,
+  "entry": "get_closest_vowel",
+  "n": 6,
+  "task_sim_to_rest": 0.2723958492279053,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 119,
+  "entry": "match_parens",
+  "n": 8,
+  "task_sim_to_rest": 0.22124311327934265,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 120,
+  "entry": "maximum",
+  "n": 2,
+  "task_sim_to_rest": 0.18795669078826904,
+  "fp": 0,
+  "tot": 2,
+  "fprate": 0.0
+ },
+ {
+  "pid": 121,
+  "entry": "solution",
+  "n": 7,
+  "task_sim_to_rest": 0.2781619727611542,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 122,
+  "entry": "add_elements",
+  "n": 8,
+  "task_sim_to_rest": 0.21782803535461426,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 123,
+  "entry": "get_odd_collatz",
+  "n": 7,
+  "task_sim_to_rest": 0.2757517695426941,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 124,
+  "entry": "valid_date",
+  "n": 5,
+  "task_sim_to_rest": 0.21151359379291534,
+  "fp": 5,
+  "tot": 5,
+  "fprate": 1.0
+ },
+ {
+  "pid": 125,
+  "entry": "split_words",
+  "n": 2,
+  "task_sim_to_rest": 0.2523491680622101,
+  "fp": 0,
+  "tot": 2,
+  "fprate": 0.0
+ },
+ {
+  "pid": 126,
+  "entry": "is_sorted",
+  "n": 1,
+  "task_sim_to_rest": 0.17265237867832184,
+  "fp": 0,
+  "tot": 1,
+  "fprate": 0.0
+ },
+ {
+  "pid": 128,
+  "entry": "prod_signs",
+  "n": 8,
+  "task_sim_to_rest": 0.31006911396980286,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 131,
+  "entry": "digits",
+  "n": 10,
+  "task_sim_to_rest": 0.2066994160413742,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 133,
+  "entry": "sum_squares",
+  "n": 10,
+  "task_sim_to_rest": 0.2917269766330719,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 135,
+  "entry": "can_arrange",
+  "n": 6,
+  "task_sim_to_rest": 0.28837424516677856,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 136,
+  "entry": "largest_smallest_integers",
+  "n": 10,
+  "task_sim_to_rest": 0.33959469199180603,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 137,
+  "entry": "compare_one",
+  "n": 5,
+  "task_sim_to_rest": 0.2692224979400635,
+  "fp": 0,
+  "tot": 5,
+  "fprate": 0.0
+ },
+ {
+  "pid": 138,
+  "entry": "is_equal_to_sum_even",
+  "n": 7,
+  "task_sim_to_rest": 0.21291828155517578,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 139,
+  "entry": "special_factorial",
+  "n": 9,
+  "task_sim_to_rest": 0.2909524142742157,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 140,
+  "entry": "fix_spaces",
+  "n": 3,
+  "task_sim_to_rest": 0.27401667833328247,
+  "fp": 0,
+  "tot": 3,
+  "fprate": 0.0
+ },
+ {
+  "pid": 141,
+  "entry": "file_name_check",
+  "n": 3,
+  "task_sim_to_rest": 0.22976069152355194,
+  "fp": 0,
+  "tot": 3,
+  "fprate": 0.0
+ },
+ {
+  "pid": 142,
+  "entry": "sum_squares",
+  "n": 4,
+  "task_sim_to_rest": 0.23199345171451569,
+  "fp": 0,
+  "tot": 4,
+  "fprate": 0.0
+ },
+ {
+  "pid": 143,
+  "entry": "words_in_sentence",
+  "n": 8,
+  "task_sim_to_rest": 0.2212473303079605,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 144,
+  "entry": "simplify",
+  "n": 7,
+  "task_sim_to_rest": 0.3116389214992523,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 146,
+  "entry": "specialFilter",
+  "n": 7,
+  "task_sim_to_rest": 0.33618879318237305,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 147,
+  "entry": "get_max_triples",
+  "n": 1,
+  "task_sim_to_rest": 0.22310815751552582,
+  "fp": 0,
+  "tot": 1,
+  "fprate": 0.0
+ },
+ {
+  "pid": 148,
+  "entry": "bf",
+  "n": 7,
+  "task_sim_to_rest": 0.2734659016132355,
+  "fp": 0,
+  "tot": 7,
+  "fprate": 0.0
+ },
+ {
+  "pid": 149,
+  "entry": "sorted_list_sum",
+  "n": 6,
+  "task_sim_to_rest": 0.2635737955570221,
+  "fp": 0,
+  "tot": 6,
+  "fprate": 0.0
+ },
+ {
+  "pid": 150,
+  "entry": "x_or_y",
+  "n": 10,
+  "task_sim_to_rest": 0.2678855061531067,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 151,
+  "entry": "double_the_difference",
+  "n": 8,
+  "task_sim_to_rest": 0.31540533900260925,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 152,
+  "entry": "compare",
+  "n": 9,
+  "task_sim_to_rest": 0.318346232175827,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 153,
+  "entry": "Strongest_Extension",
+  "n": 9,
+  "task_sim_to_rest": 0.2853159010410309,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 154,
+  "entry": "cycpattern_check",
+  "n": 5,
+  "task_sim_to_rest": 0.198395773768425,
+  "fp": 4,
+  "tot": 5,
+  "fprate": 0.8
+ },
+ {
+  "pid": 155,
+  "entry": "even_odd_count",
+  "n": 2,
+  "task_sim_to_rest": 0.167515829205513,
+  "fp": 0,
+  "tot": 2,
+  "fprate": 0.0
+ },
+ {
+  "pid": 156,
+  "entry": "int_to_mini_roman",
+  "n": 9,
+  "task_sim_to_rest": 0.2146139144897461,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 157,
+  "entry": "right_angle_triangle",
+  "n": 10,
+  "task_sim_to_rest": 0.30473875999450684,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ },
+ {
+  "pid": 158,
+  "entry": "find_max",
+  "n": 9,
+  "task_sim_to_rest": 0.3383783996105194,
+  "fp": 1,
+  "tot": 9,
+  "fprate": 0.1111111111111111
+ },
+ {
+  "pid": 159,
+  "entry": "eat",
+  "n": 8,
+  "task_sim_to_rest": 0.27518749237060547,
+  "fp": 0,
+  "tot": 8,
+  "fprate": 0.0
+ },
+ {
+  "pid": 160,
+  "entry": "do_algebra",
+  "n": 4,
+  "task_sim_to_rest": 0.23625420033931732,
+  "fp": 0,
+  "tot": 4,
+  "fprate": 0.0
+ },
+ {
+  "pid": 161,
+  "entry": "solve",
+  "n": 9,
+  "task_sim_to_rest": 0.216073676943779,
+  "fp": 0,
+  "tot": 9,
+  "fprate": 0.0
+ },
+ {
+  "pid": 162,
+  "entry": "string_to_md5",
+  "n": 10,
+  "task_sim_to_rest": 0.22349800169467926,
+  "fp": 0,
+  "tot": 10,
+  "fprate": 0.0
+ }
+]
