@@ -1,0 +1,411 @@
+[
+ {
+  "pid": 8,
+  "entry": "sum_product",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 81,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    if not numbers:\n        return (0, 1)\n    \n    total_sum = sum(numbers)\n    total_product = 1\n    \n    for num in numbers:\n        total_product *= num\n    \n    return (total_sum, total_product)"
+   },
+   {
+    "key": "B",
+    "i": 84,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    if not numbers:\n        return 0, 1\n    total_sum = sum(numbers)\n    total_product = 1\n    for num in numbers:\n        total_product *= num\n    return total_sum, total_product"
+   },
+   {
+    "key": "C",
+    "i": 85,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    if not numbers:\n        return (0, 1)\n\n    total_sum = sum(numbers)\n    total_product = 1\n    for num in numbers:\n        total_product *= num\n\n    return (total_sum, total_product)"
+   },
+   {
+    "key": "D",
+    "i": 82,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    sum_val = 0\n    prod_val = 1\n    \n    for num in numbers:\n        sum_val += num\n        prod_val *= num\n    \n    return (sum_val, prod_val)"
+   },
+   {
+    "key": "E",
+    "i": 86,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    if not numbers:\n        return (0, 1)\n    \n    total_sum = sum(numbers)\n    total_product = 1\n    \n    for num in numbers:\n        total_product *= num\n    \n    return total_sum, total_product"
+   },
+   {
+    "key": "F",
+    "i": 80,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    if not numbers:\n        return (0, 1)\n    \n    total_sum = sum(numbers)\n    total_product = 1\n    for num in numbers:\n        total_product *= num\n    \n    return total_sum, total_product"
+   },
+   {
+    "key": "G",
+    "i": 83,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    total_sum = sum(numbers)\n    total_product = 1 if not numbers else numbers[0]\n    for num in numbers[1:]:\n        total_product *= num\n    return total_sum, total_product"
+   },
+   {
+    "key": "H",
+    "i": 78,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    if not numbers:\n        return (0, 1)\n    \n    total_sum = sum(numbers)\n    total_product = 1\n    \n    for number in numbers:\n        total_product *= number\n    \n    return (total_sum, total_product)"
+   },
+   {
+    "key": "I",
+    "i": 79,
+    "code": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.\n    Empty sum should be equal to 0 and empty product should be equal to 1.\n    >>> sum_product([])\n    (0, 1)\n    >>> sum_product([1, 2, 3, 4])\n    (10, 24)\n    \"\"\"\n    if not numbers:\n        return (0, 1)\n    \n    total_sum = sum(numbers)\n    total_product = 1\n    for num in numbers:\n        total_product *= num\n    \n    return (total_sum, total_product)"
+   }
+  ]
+ },
+ {
+  "pid": 48,
+  "entry": "is_palindrome",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 437,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    return text == text[::-1]"
+   },
+   {
+    "key": "B",
+    "i": 436,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    return text == text[::-1]"
+   },
+   {
+    "key": "C",
+    "i": 438,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    return text == text[::-1]"
+   },
+   {
+    "key": "D",
+    "i": 443,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    return text == text[::-1]"
+   },
+   {
+    "key": "E",
+    "i": 439,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    # Normalize the text by converting it to lowercase and removing non-alphanumeric characters\n    normalized_text = ''.join(char.lower() for char in text if char.isalnum())\n    \n    # Check if the normalized text is equal to its reverse\n    return normalized_text == normalized_text[::-1]"
+   },
+   {
+    "key": "F",
+    "i": 441,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    left = 0\n    right = len(text) - 1\n    while left < right:\n        if text[left] != text[right]:\n            return False\n        left += 1\n        right -= 1\n    return True"
+   },
+   {
+    "key": "G",
+    "i": 434,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    return text == text[::-1]"
+   },
+   {
+    "key": "H",
+    "i": 440,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    left = 0\n    right = len(text) - 1\n    \n    while left < right:\n        if text[left] != text[right]:\n            return False\n        left += 1\n        right -= 1\n    \n    return True"
+   },
+   {
+    "key": "I",
+    "i": 435,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    return text == text[::-1]"
+   },
+   {
+    "key": "J",
+    "i": 442,
+    "code": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    return text == text[::-1]"
+   }
+  ]
+ },
+ {
+  "pid": 49,
+  "entry": "modp",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 451,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    return pow(2, n, p)"
+   },
+   {
+    "key": "B",
+    "i": 449,
+    "code": "def modp(n: int, p: int) -> int:\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    return pow(2, n, p)"
+   },
+   {
+    "key": "C",
+    "i": 444,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    result = 1\n    base = 2 % p  # This ensures that the base is within the range of p\n    while n > 0:\n        if n % 2 == 1:  # If the current bit is 1\n            result = (result * base) % p\n        base = (base ** 2) % p  # Square the base and take modulo p\n        n = n // 2\n    return result"
+   },
+   {
+    "key": "D",
+    "i": 446,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    result = 1\n    base = 2\n    while n > 0:\n        if n % 2 == 1:\n            result = (result * base) % p\n        base = (base * base) % p\n        n //= 2\n    return result"
+   },
+   {
+    "key": "E",
+    "i": 448,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    result = 1\n    base = 2 % p\n    while n > 0:\n        if n % 2 == 1:\n            result = (result * base) % p\n        base = (base ** 2) % p\n        n //= 2\n    return result"
+   },
+   {
+    "key": "F",
+    "i": 453,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    result = 1\n    base = 2\n    while n > 0:\n        if n % 2 == 1:\n            result = (result * base) % p\n        base = (base ** 2) % p\n        n = n // 2\n    return result"
+   },
+   {
+    "key": "G",
+    "i": 445,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    if p == 1:\n        return 0\n    result = 1\n    base = 2\n    while n > 0:\n        if n % 2 == 1:\n            result = (result * base) % p\n        base = (base ** 2) % p\n        n //= 2\n    return result"
+   },
+   {
+    "key": "H",
+    "i": 450,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    result = 1\n    base = 2\n\n    while n > 0:\n        if n % 2 == 1:\n            result = (result * base) % p\n        base = (base ** 2) % p\n        n //= 2\n\n    return result"
+   },
+   {
+    "key": "I",
+    "i": 447,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    return pow(2, n, p)"
+   },
+   {
+    "key": "J",
+    "i": 452,
+    "code": "def modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\"\n    result = 1\n    base = 2\n    while n > 0:\n        if n % 2 == 1:\n            result = (result * base) % p\n        base = (base * base) % p\n        n //= 2\n    return result"
+   }
+  ]
+ },
+ {
+  "pid": 55,
+  "entry": "fib",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 504,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b"
+   },
+   {
+    "key": "B",
+    "i": 503,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b"
+   },
+   {
+    "key": "C",
+    "i": 500,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b"
+   },
+   {
+    "key": "D",
+    "i": 508,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b"
+   },
+   {
+    "key": "E",
+    "i": 507,
+    "code": "def fib(n: int) -> int:\n    \"\"\"Return n-th Fibonacci number.\"\"\"\n    if n <= 1:\n        return n\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b"
+   },
+   {
+    "key": "F",
+    "i": 501,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n <= 1:\n        return n\n    else:\n        return fib(n-1) + fib(n-2)"
+   },
+   {
+    "key": "G",
+    "i": 502,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n <= 0:\n        return None\n    elif n == 1:\n        return 1\n    elif n == 2:\n        return 1\n    else:\n        a, b = 1, 1\n        for _ in range(3, n + 1):\n            a, b = b, a + b\n        return b"
+   },
+   {
+    "key": "H",
+    "i": 505,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n <= 1:\n        return n\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b"
+   },
+   {
+    "key": "I",
+    "i": 506,
+    "code": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b"
+   }
+  ]
+ },
+ {
+  "pid": 86,
+  "entry": "anti_shuffle",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 722,
+    "code": "def anti_shuffle(s):\n    \"\"\"\n    Write a function that takes a string and returns an ordered version of it.\n    Ordered version of string, is a string where all words (separated by space)\n    are replaced by a new word where all the characters arranged in\n    ascending order based on ascii value.\n    Note: You should keep the order of words and blank spaces in the sentence.\n\n    For example:\n    anti_shuffle('Hi') returns 'Hi'\n    anti_shuffle('hello') returns 'ehllo'\n    anti_shuffle('Hello World!!!') returns 'Hello !!!Wdlor'\n    \"\"\"\n    def sort_word(word):\n        # Sort the characters of the word based on their ASCII values\n        return ''.join(sorted(word))\n\n    # Split the input string into words using regex to preserve spaces\n    words = re.findall(r'\\S+|\\s+', s)\n    \n    # Sort each word and join them back together with spaces\n    ordered_words = [sort_word(word) for word in words]\n    \n    # Join the sorted words with a single space to form the final result\n    return ''.join(ordered_words)"
+   },
+   {
+    "key": "B",
+    "i": 723,
+    "code": "def anti_shuffle(s):\n    \"\"\"\n    Write a function that takes a string and returns an ordered version of it.\n    Ordered version of string, is a string where all words (separated by space)\n    are replaced by a new word where all the characters arranged in\n    ascending order based on ascii value.\n    Note: You should keep the order of words and blank spaces in the sentence.\n\n    For example:\n    anti_shuffle('Hi') returns 'Hi'\n    anti_shuffle('hello') returns 'ehllo'\n    anti_shuffle('Hello World!!!') returns 'Hello !!!Wdlor'\n    \"\"\"\n    def order_word(word):\n        return ''.join(sorted(word))\n\n    # Split the input string into words and spaces\n    parts = []\n    current_part = ''\n    for char in s:\n        if char == ' ':\n            if current_part:\n                parts.append(current_part)\n                current_part = ''\n        else:\n            current_part += char\n\n    # Add the last word if it exists\n    if current_part:\n        parts.append(current_part)\n\n    # Order each word and join them back with spaces\n    ordered_parts = [order_word(part) for part in parts]\n    return ' '.join(ordered_parts)"
+   },
+   {
+    "key": "C",
+    "i": 719,
+    "code": "def anti_shuffle(s):\n    \"\"\"\n    Write a function that takes a string and returns an ordered version of it.\n    Ordered version of string, is a string where all words (separated by space)\n    are replaced by a new word where all the characters arranged in\n    ascending order based on ascii value.\n    Note: You should keep the order of words and blank spaces in the sentence.\n\n    For example:\n    anti_shuffle('Hi') returns 'Hi'\n    anti_shuffle('hello') returns 'ehllo'\n    anti_shuffle('Hello World!!!') returns 'Hello !!!Wdlor'\n    \"\"\"\n    words = s.split(' ')\n    ordered_words = [''.join(sorted(word)) for word in words]\n    return ' '.join(ordered_words)"
+   },
+   {
+    "key": "D",
+    "i": 720,
+    "code": "def anti_shuffle(s):\n    return ' '.join([''.join(sorted(word)) for word in s.split()])"
+   },
+   {
+    "key": "E",
+    "i": 718,
+    "code": "def anti_shuffle(s):\n    \"\"\"\n    Write a function that takes a string and returns an ordered version of it.\n    Ordered version of string, is a string where all words (separated by space)\n    are replaced by a new word where all the characters arranged in\n    ascending order based on ascii value.\n    Note: You should keep the order of words and blank spaces in the sentence.\n\n    For example:\n    anti_shuffle('Hi') returns 'Hi'\n    anti_shuffle('hello') returns 'ehllo'\n    anti_shuffle('Hello World!!!') returns 'Hello !!!Wdlor'\n    \"\"\"\n    def sort_word(word):\n        return ''.join(sorted(word))\n    \n    # Use regular expression to split the string into words and spaces\n    result = re.sub(r'(\\s+)', lambda x: x.group(1), ' '.join(map(sort_word, s.split())))\n    \n    return result"
+   },
+   {
+    "key": "F",
+    "i": 721,
+    "code": "def anti_shuffle(s):\n    def sort_word(word):\n        return ''.join(sorted(word))\n\n    return ' '.join(sort_word(word) for word in s.split())"
+   }
+  ]
+ },
+ {
+  "pid": 89,
+  "entry": "encrypt",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 740,
+    "code": "def encrypt(s):\n    \"\"\"Create a function encrypt that takes a string as an argument and\n    returns a string encrypted with the alphabet being rotated. \n    The alphabet should be rotated in a manner such that the letters \n    shift down by two multiplied to two places.\n    For example:\n    encrypt('hi') returns 'lm'\n    encrypt('asdfghjkl') returns 'ewhjklnop'\n    encrypt('gf') returns 'kj'\n    encrypt('et') returns 'ix'\n    \"\"\"\n    result = []\n    for char in s:\n        if char.isalpha():\n            shift = 2 * 2  # Each character shifts by 4 places\n            start = ord('A') if char.isupper() else ord('a')\n            encrypted_char = chr((ord(char) - start + shift) % 26 + start)\n            result.append(encrypted_char)\n        else:\n            result.append(char)\n    return ''.join(result)"
+   },
+   {
+    "key": "B",
+    "i": 743,
+    "code": "def encrypt(s):\n    def rotate_char(c):\n        if c.isalpha():\n            alphabet = string.ascii_lowercase\n            start_index = alphabet.index(c.lower())\n            rotated_index = (start_index + (2 * 2)) % 26\n            if c.isupper():\n                return alphabet[rotated_index].upper()\n            else:\n                return alphabet[rotated_index]\n        return c\n\n    return ''.join(rotate_char(c) for c in s)"
+   },
+   {
+    "key": "C",
+    "i": 741,
+    "code": "def encrypt(s):\n    \"\"\"Create a function encrypt that takes a string as an argument and\n    returns a string encrypted with the alphabet being rotated. \n    The alphabet should be rotated in a manner such that the letters \n    shift down by two multiplied to two places.\n    For example:\n    encrypt('hi') returns 'lm'\n    encrypt('asdfghjkl') returns 'ewhjklnop'\n    encrypt('gf') returns 'kj'\n    encrypt('et') returns 'ix'\n    \"\"\"\n    alphabet = 'abcdefghijklmnopqrstuvwxyz'\n    encrypted = ''\n    \n    for char in s:\n        if char.lower() in alphabet:\n            original_index = alphabet.index(char.lower())\n            new_index = (original_index + 4) % 26\n            new_char = alphabet[new_index]\n            encrypted += new_char.upper() if char.isupper() else new_char\n        else:\n            encrypted += char\n    \n    return encrypted"
+   },
+   {
+    "key": "D",
+    "i": 742,
+    "code": "def encrypt(s):\n    \"\"\"Create a function encrypt that takes a string as an argument and\n    returns a string encrypted with the alphabet being rotated. \n    The alphabet should be rotated in a manner such that the letters \n    shift down by two multiplied to two places.\n    For example:\n    encrypt('hi') returns 'lm'\n    encrypt('asdfghjkl') returns 'ewhjklnop'\n    encrypt('gf') returns 'kj'\n    encrypt('et') returns 'ix'\n    \"\"\"\n    return ''.join(chr((ord(c) - 97 + 4) % 26 + 97) for c in s)"
+   },
+   {
+    "key": "E",
+    "i": 739,
+    "code": "def encrypt(s):\n    \"\"\"Create a function encrypt that takes a string as an argument and\n    returns a string encrypted with the alphabet being rotated. \n    The alphabet should be rotated in a manner such that the letters \n    shift down by two multiplied to two places.\n    For example:\n    encrypt('hi') returns 'lm'\n    encrypt('asdfghjkl') returns 'ewhjklnop'\n    encrypt('gf') returns 'kj'\n    encrypt('et') returns 'ix'\n    \"\"\"\n    encrypted = \"\"\n    for char in s:\n        if char.isalpha():\n            shift = (ord(char.lower()) - ord('a') + 4) % 26  # Shift by 4 positions\n            encrypted += chr(ord('a') + shift)\n        else:\n            encrypted += char\n    return encrypted"
+   }
+  ]
+ },
+ {
+  "pid": 97,
+  "entry": "multiply",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 785,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    return (a % 10) * (b % 10)"
+   },
+   {
+    "key": "B",
+    "i": 791,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    return (a % 10) * (b % 10)"
+   },
+   {
+    "key": "C",
+    "i": 787,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    return abs(a % 10) * abs(b % 10)"
+   },
+   {
+    "key": "D",
+    "i": 789,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    # Extract the unit digit of each number\n    unit_digit_a = abs(a) % 10\n    unit_digit_b = abs(b) % 10\n    \n    # Return the product of the unit digits\n    return unit_digit_a * unit_digit_b"
+   },
+   {
+    "key": "E",
+    "i": 786,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    return abs(a % 10) * abs(b % 10)"
+   },
+   {
+    "key": "F",
+    "i": 788,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    return (a % 10) * (b % 10)"
+   },
+   {
+    "key": "G",
+    "i": 784,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    # Extract the unit digit of both numbers\n    unit_digit_a = abs(a) % 10\n    unit_digit_b = abs(b) % 10\n    \n    # Return the product of the unit digits\n    return unit_digit_a * unit_digit_b"
+   },
+   {
+    "key": "H",
+    "i": 790,
+    "code": "def multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the product of their unit digits.\n    Assume the input is always valid.\n    Examples:\n    multiply(148, 412) should return 16.\n    multiply(19, 28) should return 72.\n    multiply(2020, 1851) should return 0.\n    multiply(14,-15) should return 20.\n    \"\"\"\n    # Get the unit digit of both numbers\n    unit_digit_a = abs(a) % 10\n    unit_digit_b = abs(b) % 10\n    \n    # Return the product of the unit digits\n    return unit_digit_a * unit_digit_b"
+   }
+  ]
+ },
+ {
+  "pid": 154,
+  "entry": "cycpattern_check",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 1124,
+    "code": "def cycpattern_check(a, b):\n    if len(b) > len(a):\n        return False\n    \n    b_rotations = [b[i:] + b[:i] for i in range(len(b))]\n    \n    for rotation in b_rotations:\n        if rotation in a:\n            return True\n    \n    return False"
+   },
+   {
+    "key": "B",
+    "i": 1126,
+    "code": "def cycpattern_check(a, b):\n    \"\"\"You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word\n    cycpattern_check(\"abcd\",\"abd\") => False\n    cycpattern_check(\"hello\",\"ell\") => True\n    cycpattern_check(\"whassup\",\"psus\") => False\n    cycpattern_check(\"abab\",\"baa\") => True\n    cycpattern_check(\"efef\",\"eeff\") => False\n    cycpattern_check(\"himenss\",\"simen\") => True\n    \"\"\"\n    for i in range(len(b)):\n        rotated_b = b[i:] + b[:i]\n        if rotated_b in a:\n            return True\n    return False"
+   },
+   {
+    "key": "C",
+    "i": 1125,
+    "code": "def cycpattern_check(a, b):\n    \"\"\"You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word\n    cycpattern_check(\"abcd\",\"abd\") => False\n    cycpattern_check(\"hello\",\"ell\") => True\n    cycpattern_check(\"whassup\",\"psus\") => False\n    cycpattern_check(\"abab\",\"baa\") => True\n    cycpattern_check(\"efef\",\"eeff\") => False\n    cycpattern_check(\"himenss\",\"simen\") => True\n\n    \"\"\"\n    if len(b) > len(a):\n        return False\n    # Create all rotations of b\n    rotations = [b[i:] + b[:i] for i in range(len(b))]\n    # Check if any rotation of b is a substring of a\n    for rotation in rotations:\n        if rotation in a:\n            return True\n    return False"
+   },
+   {
+    "key": "D",
+    "i": 1127,
+    "code": "def cycpattern_check(a, b):\n    \"\"\"You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word.\n    cycpattern_check(\"abcd\", \"abd\") => False\n    cycpattern_check(\"hello\", \"ell\") => True\n    cycpattern_check(\"whassup\", \"psus\") => False\n    cycpattern_check(\"abab\", \"baa\") => True\n    cycpattern_check(\"efef\", \"eeff\") => False\n    cycpattern_check(\"himenss\", \"simen\") => True\n\n    \"\"\"\n    if len(b) > len(a):\n        return False\n    \n    # Create all rotations of b\n    rotations = [b[i:] + b[:i] for i in range(len(b))]\n    \n    # Check if any rotation of b is a substring of a\n    for rotation in rotations:\n        if rotation in a:\n            return True\n    \n    return False"
+   },
+   {
+    "key": "E",
+    "i": 1123,
+    "code": "def cycpattern_check(a, b):\n    \"\"\"You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word\n    cycpattern_check(\"abcd\",\"abd\") => False\n    cycpattern_check(\"hello\",\"ell\") => True\n    cycpattern_check(\"whassup\",\"psus\") => False\n    cycpattern_check(\"abab\",\"baa\") => True\n    cycpattern_check(\"efef\",\"eeff\") => False\n    cycpattern_check(\"himenss\",\"simen\") => True\n\n    \"\"\"\n    if not b:  # If b is an empty string, it's trivially a substring of any string.\n        return True\n    doubled_b = b * 2  # Double the word b to account for all possible rotations.\n    \n    return any(b in a[i:] for i in range(len(b))) or any(doubled_b[i:i+len(b)] in a for i in range(len(b)))"
+   }
+  ]
+ },
+ {
+  "pid": 158,
+  "entry": "find_max",
+  "solutions": [
+   {
+    "key": "A",
+    "i": 1157,
+    "code": "def find_max(words):\n    \"\"\"Write a function that accepts a list of strings.\n    The list contains different words. Return the word with maximum number\n    of unique characters. If multiple strings have maximum number of unique\n    characters, return the one which comes first in lexicographical order.\n\n    find_max([\"name\", \"of\", \"string\"]) == \"string\"\n    find_max([\"name\", \"enam\", \"game\"]) == \"enam\"\n    find_max([\"aaaaaaa\", \"bb\" ,\"cc\"]) == \"aaaaaaa\"\n    \"\"\"\n    max_word = \"\"\n    for word in words:\n        unique_chars = len(set(word))\n        if unique_chars > len(max_word) or (unique_chars == len(max_word) and word < max_word):\n            max_word = word\n    return max_word"
+   },
+   {
+    "key": "B",
+    "i": 1151,
+    "code": "def find_max(words):\n    def unique_char_count(word):\n        return len(set(word))\n    \n    max_unique_word = \"\"\n    for word in words:\n        if unique_char_count(word) > unique_char_count(max_unique_word) or \\\n           (unique_char_count(word) == unique_char_count(max_unique_word) and word < max_unique_word):\n            max_unique_word = word\n    \n    return max_unique_word"
+   },
+   {
+    "key": "C",
+    "i": 1154,
+    "code": "def find_max(words):\n    \"\"\"Write a function that accepts a list of strings.\n    The list contains different words. Return the word with maximum number\n    of unique characters. If multiple strings have maximum number of unique\n    characters, return the one which comes first in lexicographical order.\n\n    find_max([\"name\", \"of\", \"string\"]) == \"string\"\n    find_max([\"name\", \"enam\", \"game\"]) == \"enam\"\n    find_max([\"aaaaaaa\", \"bb\" ,\"cc\"]) == \"\"aaaaaaa\"\n    \"\"\"\n    max_word = \"\"\n    max_unique_chars = 0\n    for word in words:\n        unique_chars = len(set(word))\n        if unique_chars > max_unique_chars or (unique_chars == max_unique_chars and word < max_word):\n            max_word = word\n            max_unique_chars = unique_chars\n    return max_word"
+   },
+   {
+    "key": "D",
+    "i": 1152,
+    "code": "def find_max(words):\n    max_unique_word = \"\"\n    max_unique_count = 0\n    \n    for word in words:\n        unique_chars = set(word)\n        unique_count = len(unique_chars)\n        \n        if unique_count > max_unique_count or (unique_count == max_unique_count and word < max_unique_word):\n            max_unique_count = unique_count\n            max_unique_word = word\n            \n    return max_unique_word"
+   },
+   {
+    "key": "E",
+    "i": 1149,
+    "code": "def find_max(words):\n    \"\"\"Write a function that accepts a list of strings.\n    The list contains different words. Return the word with maximum number\n    of unique characters. If multiple strings have maximum number of unique\n    characters, return the one which comes first in lexicographical order.\n\n    find_max([\"name\", \"of\", \"string\"]) == \"string\"\n    find_max([\"name\", \"enam\", \"game\"]) == \"enam\"\n    find_max([\"aaaaaaa\", \"bb\" ,\"cc\"]) == \"aaaaaaa\"\n    \"\"\"\n    max_word = \"\"\n    max_unique_chars = 0\n\n    for word in words:\n        unique_chars = set(word)\n        unique_count = len(unique_chars)\n\n        if unique_count > max_unique_chars or (unique_count == max_unique_chars and word < max_word):\n            max_word = word\n            max_unique_chars = unique_count\n\n    return max_word"
+   },
+   {
+    "key": "F",
+    "i": 1156,
+    "code": "def find_max(words):\n    max_unique_chars = 0\n    result_word = \"\"\n    \n    for word in words:\n        unique_chars = len(Counter(word))\n        if unique_chars > max_unique_chars or (unique_chars == max_unique_chars and word < result_word):\n            max_unique_chars = unique_chars\n            result_word = word\n    \n    return result_word"
+   },
+   {
+    "key": "G",
+    "i": 1155,
+    "code": "def find_max(words):\n    \"\"\"Write a function that accepts a list of strings.\n    The list contains different words. Return the word with maximum number\n    of unique characters. If multiple strings have maximum number of unique\n    characters, return the one which comes first in lexicographical order.\n\n    find_max([\"name\", \"of\", \"string\"]) == \"string\"\n    find_max([\"name\", \"enam\", \"game\"]) == \"enam\"\n    find_max([\"aaaaaaa\", \"bb\" ,\"cc\"]) == \"\"aaaaaaa\"\n    \"\"\"\n    max_unique_word = \"\"\n    max_unique_count = 0\n    \n    for word in words:\n        unique_chars = set(word)\n        unique_count = len(unique_chars)\n        \n        if unique_count > max_unique_count or \\\n           (unique_count == max_unique_count and word < max_unique_word):\n            max_unique_word = word\n            max_unique_count = unique_count\n            \n    return max_unique_word"
+   },
+   {
+    "key": "H",
+    "i": 1150,
+    "code": "def find_max(words):\n    \"\"\"Write a function that accepts a list of strings.\n    The list contains different words. Return the word with maximum number\n    of unique characters. If multiple strings have maximum number of unique\n    characters, return the one which comes first in lexicographical order.\n\n    find_max([\"name\", \"of\", \"string\"]) == \"string\"\n    find_max([\"name\", \"enam\", \"game\"]) == \"enam\"\n    find_max([\"aaaaaaa\", \"bb\" ,\"cc\"]) == \"\"\n    \"\"\"\n    if not words:\n        return \"\"\n    \n    max_word = \"\"\n    max_unique_chars = 0\n    \n    for word in words:\n        unique_chars = set(word)\n        if len(unique_chars) > max_unique_chars or (len(unique_chars) == max_unique_chars and word < max_word):\n            max_unique_chars = len(unique_chars)\n            max_word = word\n    \n    return max_word"
+   },
+   {
+    "key": "I",
+    "i": 1153,
+    "code": "def find_max(words):\n    def unique_count(word):\n        return len(set(word))\n    \n    max_word = \"\"\n    max_unique_count = 0\n    \n    for word in words:\n        unique_count_word = unique_count(word)\n        if unique_count_word > max_unique_count or (unique_count_word == max_unique_count and word < max_word):\n            max_unique_count = unique_count_word\n            max_word = word\n            \n    return max_word"
+   }
+  ]
+ }
+]

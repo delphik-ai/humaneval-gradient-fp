@@ -1,0 +1,411 @@
+[
+ {
+  "pid": 8,
+  "entry": "sum_product",
+  "scores": [
+   {
+    "i": 81,
+    "key": "A",
+    "judge": 1
+   },
+   {
+    "i": 84,
+    "key": "B",
+    "judge": 1
+   },
+   {
+    "i": 85,
+    "key": "C",
+    "judge": 1
+   },
+   {
+    "i": 82,
+    "key": "D",
+    "judge": 4
+   },
+   {
+    "i": 86,
+    "key": "E",
+    "judge": 1
+   },
+   {
+    "i": 80,
+    "key": "F",
+    "judge": 1
+   },
+   {
+    "i": 83,
+    "key": "G",
+    "judge": 3
+   },
+   {
+    "i": 78,
+    "key": "H",
+    "judge": 1
+   },
+   {
+    "i": 79,
+    "key": "I",
+    "judge": 1
+   }
+  ]
+ },
+ {
+  "pid": 48,
+  "entry": "is_palindrome",
+  "scores": [
+   {
+    "i": 437,
+    "key": "A",
+    "judge": 1
+   },
+   {
+    "i": 436,
+    "key": "B",
+    "judge": 1
+   },
+   {
+    "i": 438,
+    "key": "C",
+    "judge": 1
+   },
+   {
+    "i": 443,
+    "key": "D",
+    "judge": 1
+   },
+   {
+    "i": 439,
+    "key": "E",
+    "judge": 3
+   },
+   {
+    "i": 441,
+    "key": "F",
+    "judge": 4
+   },
+   {
+    "i": 434,
+    "key": "G",
+    "judge": 1
+   },
+   {
+    "i": 440,
+    "key": "H",
+    "judge": 4
+   },
+   {
+    "i": 435,
+    "key": "I",
+    "judge": 1
+   },
+   {
+    "i": 442,
+    "key": "J",
+    "judge": 1
+   }
+  ]
+ },
+ {
+  "pid": 49,
+  "entry": "modp",
+  "scores": [
+   {
+    "i": 451,
+    "key": "A",
+    "judge": 1
+   },
+   {
+    "i": 449,
+    "key": "B",
+    "judge": 1
+   },
+   {
+    "i": 444,
+    "key": "C",
+    "judge": 4
+   },
+   {
+    "i": 446,
+    "key": "D",
+    "judge": 2
+   },
+   {
+    "i": 448,
+    "key": "E",
+    "judge": 3
+   },
+   {
+    "i": 453,
+    "key": "F",
+    "judge": 2
+   },
+   {
+    "i": 445,
+    "key": "G",
+    "judge": 3
+   },
+   {
+    "i": 450,
+    "key": "H",
+    "judge": 2
+   },
+   {
+    "i": 447,
+    "key": "I",
+    "judge": 1
+   },
+   {
+    "i": 452,
+    "key": "J",
+    "judge": 2
+   }
+  ]
+ },
+ {
+  "pid": 55,
+  "entry": "fib",
+  "scores": [
+   {
+    "i": 504,
+    "key": "A",
+    "judge": 1
+   },
+   {
+    "i": 503,
+    "key": "B",
+    "judge": 1
+   },
+   {
+    "i": 500,
+    "key": "C",
+    "judge": 1
+   },
+   {
+    "i": 508,
+    "key": "D",
+    "judge": 1
+   },
+   {
+    "i": 507,
+    "key": "E",
+    "judge": 1
+   },
+   {
+    "i": 501,
+    "key": "F",
+    "judge": 5
+   },
+   {
+    "i": 502,
+    "key": "G",
+    "judge": 3
+   },
+   {
+    "i": 505,
+    "key": "H",
+    "judge": 1
+   },
+   {
+    "i": 506,
+    "key": "I",
+    "judge": 1
+   }
+  ]
+ },
+ {
+  "pid": 86,
+  "entry": "anti_shuffle",
+  "scores": [
+   {
+    "i": 722,
+    "key": "A",
+    "judge": 3
+   },
+   {
+    "i": 723,
+    "key": "B",
+    "judge": 4
+   },
+   {
+    "i": 719,
+    "key": "C",
+    "judge": 1
+   },
+   {
+    "i": 720,
+    "key": "D",
+    "judge": 1
+   },
+   {
+    "i": 718,
+    "key": "E",
+    "judge": 4
+   },
+   {
+    "i": 721,
+    "key": "F",
+    "judge": 1
+   }
+  ]
+ },
+ {
+  "pid": 89,
+  "entry": "encrypt",
+  "scores": [
+   {
+    "i": 740,
+    "key": "A",
+    "judge": 2
+   },
+   {
+    "i": 743,
+    "key": "B",
+    "judge": 3
+   },
+   {
+    "i": 741,
+    "key": "C",
+    "judge": 2
+   },
+   {
+    "i": 742,
+    "key": "D",
+    "judge": 2
+   },
+   {
+    "i": 739,
+    "key": "E",
+    "judge": 2
+   }
+  ]
+ },
+ {
+  "pid": 97,
+  "entry": "multiply",
+  "scores": [
+   {
+    "i": 785,
+    "key": "A",
+    "judge": 1
+   },
+   {
+    "i": 791,
+    "key": "B",
+    "judge": 1
+   },
+   {
+    "i": 787,
+    "key": "C",
+    "judge": 2
+   },
+   {
+    "i": 789,
+    "key": "D",
+    "judge": 3
+   },
+   {
+    "i": 786,
+    "key": "E",
+    "judge": 2
+   },
+   {
+    "i": 788,
+    "key": "F",
+    "judge": 1
+   },
+   {
+    "i": 784,
+    "key": "G",
+    "judge": 3
+   },
+   {
+    "i": 790,
+    "key": "H",
+    "judge": 3
+   }
+  ]
+ },
+ {
+  "pid": 154,
+  "entry": "cycpattern_check",
+  "scores": [
+   {
+    "i": 1124,
+    "key": "A",
+    "judge": 1
+   },
+   {
+    "i": 1126,
+    "key": "B",
+    "judge": 2
+   },
+   {
+    "i": 1125,
+    "key": "C",
+    "judge": 1
+   },
+   {
+    "i": 1127,
+    "key": "D",
+    "judge": 1
+   },
+   {
+    "i": 1123,
+    "key": "E",
+    "judge": 5
+   }
+  ]
+ },
+ {
+  "pid": 158,
+  "entry": "find_max",
+  "scores": [
+   {
+    "i": 1157,
+    "key": "A",
+    "judge": 1
+   },
+   {
+    "i": 1151,
+    "key": "B",
+    "judge": 2
+   },
+   {
+    "i": 1154,
+    "key": "C",
+    "judge": 1
+   },
+   {
+    "i": 1152,
+    "key": "D",
+    "judge": 2
+   },
+   {
+    "i": 1149,
+    "key": "E",
+    "judge": 1
+   },
+   {
+    "i": 1156,
+    "key": "F",
+    "judge": 4
+   },
+   {
+    "i": 1155,
+    "key": "G",
+    "judge": 2
+   },
+   {
+    "i": 1150,
+    "key": "H",
+    "judge": 3
+   },
+   {
+    "i": 1153,
+    "key": "I",
+    "judge": 2
+   }
+  ]
+ }
+]
