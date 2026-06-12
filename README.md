@@ -2,7 +2,7 @@
 
 **52 wrong solutions were hiding in HumanEval's "correct" answers — could a gradient have found them?**
 
-This repo contains the full code, data, and labels for the experiment described in [article link — TBD]. Everything needed to re-run it fits on a single 24GB GPU (we used one NVIDIA L4; the full run takes ~2.5h).
+This repo contains the full code, data, and labels for the experiment described in [article link — TBD]. A problem-by-problem deep dive — three difference rulers, effect sizes, cohesion, the task-level test, and visualization notes — is in [ANALYSIS.md](ANALYSIS.md). Everything needed to re-run it fits on a single 24GB GPU (we used one NVIDIA L4; the full run takes ~2.5h).
 
 ## The experiment in one paragraph
 
