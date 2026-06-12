@@ -1,0 +1,22 @@
+Load from ground-truth from /home/jongwon/.cache/evalplus/fe585eb4df8c88d844eeb463ea4d0302.pkl
+recheck of 52 plus_fail: stable fails=52, flipped to pass=0
+final analysis set n=1188, FP=52 across 16 problems
+
+GLOBAL sim-to-rest: mean FP=0.1617 genuine=0.1765
+AUC=0.595 (SE~0.042, ~95% CI 0.512-0.678)
+
+WITHIN-PROBLEM (mixed problems only): n=71 FP=26
+AUC=0.569 (SE~0.072, ~95% CI 0.429-0.710)
+
+per-problem rank of FPs (1=lowest sim):
+  pid 8 sum_product: n=9 FP_ranks=[2]
+  pid 48 is_palindrome: n=10 FP_ranks=[1]
+  pid 49 modp: n=10 FP_ranks=[3, 9, 7, 8, 1, 10]
+  pid 55 fib: n=9 FP_ranks=[2, 1]
+  pid 86 anti_shuffle: n=6 FP_ranks=[3, 1, 6, 4, 2]
+  pid 89 encrypt: n=5 FP_ranks=[4]
+  pid 97 multiply: n=8 FP_ranks=[5, 1, 2, 6, 7]
+  pid 154 cycpattern_check: n=5 FP_ranks=[2, 4, 3, 5]
+  pid 158 find_max: n=9 FP_ranks=[4]
+
+saved ep_final.json + ep_fp_samples.json
